@@ -1,0 +1,24 @@
+{
+    "name": "eskandari/mtn_generic",
+    "type": "library",
+    "description": "Irancell Generic Api php library",
+    "keywords": ["MTN","Irancell","IrancellGeneric","generic"],
+    "homepage": "http://webafrooz.com",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Mahmoud Eskandari",
+            "email": "info@webafrooz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+		"ext-openssl": "*",
+		"ext-soap": "*" 
+    },
+    "autoload": {
+        "psr-4": {
+            "eskandari\\MtnGenericAPI\\": "src/MtnGenericAPI/"
+        }
+    }
+}

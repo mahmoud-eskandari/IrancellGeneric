@@ -10,10 +10,10 @@ class processRequest
      */
     protected $ClientRequest = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class processRequest
      */
     public function getClientRequest()
     {
-      return $this->ClientRequest;
+        return $this->ClientRequest;
     }
 
     /**
@@ -30,8 +30,8 @@ class processRequest
      */
     public function setClientRequest($ClientRequest)
     {
-      $this->ClientRequest = $ClientRequest;
-      return $this;
+        $this->ClientRequest = $ClientRequest;
+        return $this;
     }
 
 }

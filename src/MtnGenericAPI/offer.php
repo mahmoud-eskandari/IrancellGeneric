@@ -39,11 +39,11 @@ class offer
      */
     public function __construct($OfferCode, $OfferDescription, $OfferName, $OfferAmount, $roleid)
     {
-      $this->OfferCode = $OfferCode;
-      $this->OfferDescription = $OfferDescription;
-      $this->OfferName = $OfferName;
-      $this->OfferAmount = $OfferAmount;
-      $this->roleid = $roleid;
+        $this->OfferCode = $OfferCode;
+        $this->OfferDescription = $OfferDescription;
+        $this->OfferName = $OfferName;
+        $this->OfferAmount = $OfferAmount;
+        $this->roleid = $roleid;
     }
 
     /**
@@ -51,7 +51,7 @@ class offer
      */
     public function getOfferCode()
     {
-      return $this->OfferCode;
+        return $this->OfferCode;
     }
 
     /**
@@ -60,8 +60,8 @@ class offer
      */
     public function setOfferCode($OfferCode)
     {
-      $this->OfferCode = $OfferCode;
-      return $this;
+        $this->OfferCode = $OfferCode;
+        return $this;
     }
 
     /**
@@ -69,7 +69,7 @@ class offer
      */
     public function getOfferDescription()
     {
-      return $this->OfferDescription;
+        return $this->OfferDescription;
     }
 
     /**
@@ -78,8 +78,8 @@ class offer
      */
     public function setOfferDescription($OfferDescription)
     {
-      $this->OfferDescription = $OfferDescription;
-      return $this;
+        $this->OfferDescription = $OfferDescription;
+        return $this;
     }
 
     /**
@@ -87,7 +87,7 @@ class offer
      */
     public function getOfferName()
     {
-      return $this->OfferName;
+        return $this->OfferName;
     }
 
     /**
@@ -96,8 +96,8 @@ class offer
      */
     public function setOfferName($OfferName)
     {
-      $this->OfferName = $OfferName;
-      return $this;
+        $this->OfferName = $OfferName;
+        return $this;
     }
 
     /**
@@ -105,7 +105,7 @@ class offer
      */
     public function getOfferAmount()
     {
-      return $this->OfferAmount;
+        return $this->OfferAmount;
     }
 
     /**
@@ -114,8 +114,8 @@ class offer
      */
     public function setOfferAmount($OfferAmount)
     {
-      $this->OfferAmount = $OfferAmount;
-      return $this;
+        $this->OfferAmount = $OfferAmount;
+        return $this;
     }
 
     /**
@@ -123,7 +123,7 @@ class offer
      */
     public function getRoleid()
     {
-      return $this->roleid;
+        return $this->roleid;
     }
 
     /**
@@ -132,8 +132,8 @@ class offer
      */
     public function setRoleid($roleid)
     {
-      $this->roleid = $roleid;
-      return $this;
+        $this->roleid = $roleid;
+        return $this;
     }
 
 }

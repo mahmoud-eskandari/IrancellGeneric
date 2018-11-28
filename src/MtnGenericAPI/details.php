@@ -10,10 +10,10 @@ class details
      */
     protected $Param = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class details
      */
     public function getParam()
     {
-      return $this->Param;
+        return $this->Param;
     }
 
     /**
@@ -30,8 +30,8 @@ class details
      */
     public function setParam(array $Param = null)
     {
-      $this->Param = $Param;
-      return $this;
+        $this->Param = $Param;
+        return $this;
     }
 
 }

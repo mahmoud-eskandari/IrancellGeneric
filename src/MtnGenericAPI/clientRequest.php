@@ -79,16 +79,16 @@ class clientRequest
      */
     public function __construct($FeatureId, $ClientTxnId, $ChannelId, $ClientUsername, $ClientPassword, $RequestTimestamp, $OriginatingMsisdn, $DestinationMsisdn, $TransactionPin, $TransactionAmount)
     {
-      $this->FeatureId = $FeatureId;
-      $this->ClientTxnId = $ClientTxnId;
-      $this->ChannelId = $ChannelId;
-      $this->ClientUsername = $ClientUsername;
-      $this->ClientPassword = $ClientPassword;
-      $this->RequestTimestamp = $RequestTimestamp;
-      $this->OriginatingMsisdn = $OriginatingMsisdn;
-      $this->DestinationMsisdn = $DestinationMsisdn;
-      $this->TransactionPin = $TransactionPin;
-      $this->TransactionAmount = $TransactionAmount;
+        $this->FeatureId = $FeatureId;
+        $this->ClientTxnId = $ClientTxnId;
+        $this->ChannelId = $ChannelId;
+        $this->ClientUsername = $ClientUsername;
+        $this->ClientPassword = $ClientPassword;
+        $this->RequestTimestamp = $RequestTimestamp;
+        $this->OriginatingMsisdn = $OriginatingMsisdn;
+        $this->DestinationMsisdn = $DestinationMsisdn;
+        $this->TransactionPin = $TransactionPin;
+        $this->TransactionAmount = $TransactionAmount;
     }
 
     /**
@@ -96,7 +96,7 @@ class clientRequest
      */
     public function getFeatureId()
     {
-      return $this->FeatureId;
+        return $this->FeatureId;
     }
 
     /**
@@ -105,8 +105,8 @@ class clientRequest
      */
     public function setFeatureId($FeatureId)
     {
-      $this->FeatureId = $FeatureId;
-      return $this;
+        $this->FeatureId = $FeatureId;
+        return $this;
     }
 
     /**
@@ -114,7 +114,7 @@ class clientRequest
      */
     public function getClientTxnId()
     {
-      return $this->ClientTxnId;
+        return $this->ClientTxnId;
     }
 
     /**
@@ -123,8 +123,8 @@ class clientRequest
      */
     public function setClientTxnId($ClientTxnId)
     {
-      $this->ClientTxnId = $ClientTxnId;
-      return $this;
+        $this->ClientTxnId = $ClientTxnId;
+        return $this;
     }
 
     /**
@@ -132,7 +132,7 @@ class clientRequest
      */
     public function getChannelId()
     {
-      return $this->ChannelId;
+        return $this->ChannelId;
     }
 
     /**
@@ -141,8 +141,8 @@ class clientRequest
      */
     public function setChannelId($ChannelId)
     {
-      $this->ChannelId = $ChannelId;
-      return $this;
+        $this->ChannelId = $ChannelId;
+        return $this;
     }
 
     /**
@@ -150,7 +150,7 @@ class clientRequest
      */
     public function getClientUsername()
     {
-      return $this->ClientUsername;
+        return $this->ClientUsername;
     }
 
     /**
@@ -159,8 +159,8 @@ class clientRequest
      */
     public function setClientUsername($ClientUsername)
     {
-      $this->ClientUsername = $ClientUsername;
-      return $this;
+        $this->ClientUsername = $ClientUsername;
+        return $this;
     }
 
     /**
@@ -168,7 +168,7 @@ class clientRequest
      */
     public function getClientPassword()
     {
-      return $this->ClientPassword;
+        return $this->ClientPassword;
     }
 
     /**
@@ -177,8 +177,8 @@ class clientRequest
      */
     public function setClientPassword($ClientPassword)
     {
-      $this->ClientPassword = $ClientPassword;
-      return $this;
+        $this->ClientPassword = $ClientPassword;
+        return $this;
     }
 
     /**
@@ -186,7 +186,7 @@ class clientRequest
      */
     public function getRequestTimestamp()
     {
-      return $this->RequestTimestamp;
+        return $this->RequestTimestamp;
     }
 
     /**
@@ -195,8 +195,8 @@ class clientRequest
      */
     public function setRequestTimestamp($RequestTimestamp)
     {
-      $this->RequestTimestamp = $RequestTimestamp;
-      return $this;
+        $this->RequestTimestamp = $RequestTimestamp;
+        return $this;
     }
 
     /**
@@ -204,7 +204,7 @@ class clientRequest
      */
     public function getOriginatingMsisdn()
     {
-      return $this->OriginatingMsisdn;
+        return $this->OriginatingMsisdn;
     }
 
     /**
@@ -213,8 +213,8 @@ class clientRequest
      */
     public function setOriginatingMsisdn($OriginatingMsisdn)
     {
-      $this->OriginatingMsisdn = $OriginatingMsisdn;
-      return $this;
+        $this->OriginatingMsisdn = $OriginatingMsisdn;
+        return $this;
     }
 
     /**
@@ -222,7 +222,7 @@ class clientRequest
      */
     public function getDestinationMsisdn()
     {
-      return $this->DestinationMsisdn;
+        return $this->DestinationMsisdn;
     }
 
     /**
@@ -231,8 +231,8 @@ class clientRequest
      */
     public function setDestinationMsisdn($DestinationMsisdn)
     {
-      $this->DestinationMsisdn = $DestinationMsisdn;
-      return $this;
+        $this->DestinationMsisdn = $DestinationMsisdn;
+        return $this;
     }
 
     /**
@@ -240,7 +240,7 @@ class clientRequest
      */
     public function getTransactionPin()
     {
-      return $this->TransactionPin;
+        return $this->TransactionPin;
     }
 
     /**
@@ -249,8 +249,8 @@ class clientRequest
      */
     public function setTransactionPin($TransactionPin)
     {
-      $this->TransactionPin = $TransactionPin;
-      return $this;
+        $this->TransactionPin = $TransactionPin;
+        return $this;
     }
 
     /**
@@ -258,7 +258,7 @@ class clientRequest
      */
     public function getTransactionAmount()
     {
-      return $this->TransactionAmount;
+        return $this->TransactionAmount;
     }
 
     /**
@@ -267,8 +267,8 @@ class clientRequest
      */
     public function setTransactionAmount($TransactionAmount)
     {
-      $this->TransactionAmount = $TransactionAmount;
-      return $this;
+        $this->TransactionAmount = $TransactionAmount;
+        return $this;
     }
 
     /**
@@ -276,7 +276,7 @@ class clientRequest
      */
     public function getProfileId()
     {
-      return $this->ProfileId;
+        return $this->ProfileId;
     }
 
     /**
@@ -285,8 +285,8 @@ class clientRequest
      */
     public function setProfileId($ProfileId)
     {
-      $this->ProfileId = $ProfileId;
-      return $this;
+        $this->ProfileId = $ProfileId;
+        return $this;
     }
 
     /**
@@ -294,7 +294,7 @@ class clientRequest
      */
     public function getDetails()
     {
-      return $this->Details;
+        return $this->Details;
     }
 
     /**
@@ -303,8 +303,8 @@ class clientRequest
      */
     public function setDetails($Details)
     {
-      $this->Details = $Details;
-      return $this;
+        $this->Details = $Details;
+        return $this;
     }
 
 }

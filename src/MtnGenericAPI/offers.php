@@ -43,10 +43,10 @@ class offers
      */
     public function __construct($offerID, $startDate, $expiryDate, $productId)
     {
-      $this->offerID = $offerID;
-      $this->startDate = $startDate;
-      $this->expiryDate = $expiryDate;
-      $this->productId = $productId;
+        $this->offerID = $offerID;
+        $this->startDate = $startDate;
+        $this->expiryDate = $expiryDate;
+        $this->productId = $productId;
     }
 
     /**
@@ -54,7 +54,7 @@ class offers
      */
     public function getOfferID()
     {
-      return $this->offerID;
+        return $this->offerID;
     }
 
     /**
@@ -63,8 +63,8 @@ class offers
      */
     public function setOfferID($offerID)
     {
-      $this->offerID = $offerID;
-      return $this;
+        $this->offerID = $offerID;
+        return $this;
     }
 
     /**
@@ -72,7 +72,7 @@ class offers
      */
     public function getStartDate()
     {
-      return $this->startDate;
+        return $this->startDate;
     }
 
     /**
@@ -81,8 +81,8 @@ class offers
      */
     public function setStartDate($startDate)
     {
-      $this->startDate = $startDate;
-      return $this;
+        $this->startDate = $startDate;
+        return $this;
     }
 
     /**
@@ -90,7 +90,7 @@ class offers
      */
     public function getExpiryDate()
     {
-      return $this->expiryDate;
+        return $this->expiryDate;
     }
 
     /**
@@ -99,8 +99,8 @@ class offers
      */
     public function setExpiryDate($expiryDate)
     {
-      $this->expiryDate = $expiryDate;
-      return $this;
+        $this->expiryDate = $expiryDate;
+        return $this;
     }
 
     /**
@@ -108,7 +108,7 @@ class offers
      */
     public function getProductId()
     {
-      return $this->productId;
+        return $this->productId;
     }
 
     /**
@@ -117,8 +117,8 @@ class offers
      */
     public function setProductId($productId)
     {
-      $this->productId = $productId;
-      return $this;
+        $this->productId = $productId;
+        return $this;
     }
 
     /**
@@ -126,7 +126,7 @@ class offers
      */
     public function getAccountValue()
     {
-      return $this->accountValue;
+        return $this->accountValue;
     }
 
     /**
@@ -135,8 +135,8 @@ class offers
      */
     public function setAccountValue($accountValue)
     {
-      $this->accountValue = $accountValue;
-      return $this;
+        $this->accountValue = $accountValue;
+        return $this;
     }
 
     /**
@@ -144,7 +144,7 @@ class offers
      */
     public function getServiceType()
     {
-      return $this->serviceType;
+        return $this->serviceType;
     }
 
     /**
@@ -153,8 +153,8 @@ class offers
      */
     public function setServiceType($serviceType)
     {
-      $this->serviceType = $serviceType;
-      return $this;
+        $this->serviceType = $serviceType;
+        return $this;
     }
 
 }

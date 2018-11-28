@@ -10,10 +10,10 @@ class offerList
      */
     protected $Offer = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class offerList
      */
     public function getOffer()
     {
-      return $this->Offer;
+        return $this->Offer;
     }
 
     /**
@@ -30,8 +30,8 @@ class offerList
      */
     public function setOffer(array $Offer = null)
     {
-      $this->Offer = $Offer;
-      return $this;
+        $this->Offer = $Offer;
+        return $this;
     }
 
 }

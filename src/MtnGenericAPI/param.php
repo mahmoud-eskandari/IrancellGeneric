@@ -15,10 +15,10 @@ class param
      */
     protected $Value = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -26,7 +26,7 @@ class param
      */
     public function getName()
     {
-      return $this->Name;
+        return $this->Name;
     }
 
     /**
@@ -35,8 +35,8 @@ class param
      */
     public function setName($Name)
     {
-      $this->Name = $Name;
-      return $this;
+        $this->Name = $Name;
+        return $this;
     }
 
     /**
@@ -44,7 +44,7 @@ class param
      */
     public function getValue()
     {
-      return $this->Value;
+        return $this->Value;
     }
 
     /**
@@ -53,8 +53,8 @@ class param
      */
     public function setValue($Value)
     {
-      $this->Value = $Value;
-      return $this;
+        $this->Value = $Value;
+        return $this;
     }
 
 }

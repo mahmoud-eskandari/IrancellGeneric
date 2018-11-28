@@ -77,14 +77,14 @@ class clientResponse
      */
     public function __construct($FeatureId, $ClientTxnId, $ChannelId, $RequestTimestamp, $ResponseTimestamp, $ResponseTxnId, $CommandStatus, $ResultCode)
     {
-      $this->FeatureId = $FeatureId;
-      $this->ClientTxnId = $ClientTxnId;
-      $this->ChannelId = $ChannelId;
-      $this->RequestTimestamp = $RequestTimestamp;
-      $this->ResponseTimestamp = $ResponseTimestamp;
-      $this->ResponseTxnId = $ResponseTxnId;
-      $this->CommandStatus = $CommandStatus;
-      $this->ResultCode = $ResultCode;
+        $this->FeatureId = $FeatureId;
+        $this->ClientTxnId = $ClientTxnId;
+        $this->ChannelId = $ChannelId;
+        $this->RequestTimestamp = $RequestTimestamp;
+        $this->ResponseTimestamp = $ResponseTimestamp;
+        $this->ResponseTxnId = $ResponseTxnId;
+        $this->CommandStatus = $CommandStatus;
+        $this->ResultCode = $ResultCode;
     }
 
     /**
@@ -92,7 +92,7 @@ class clientResponse
      */
     public function getFeatureId()
     {
-      return $this->FeatureId;
+        return $this->FeatureId;
     }
 
     /**
@@ -101,8 +101,8 @@ class clientResponse
      */
     public function setFeatureId($FeatureId)
     {
-      $this->FeatureId = $FeatureId;
-      return $this;
+        $this->FeatureId = $FeatureId;
+        return $this;
     }
 
     /**
@@ -110,7 +110,7 @@ class clientResponse
      */
     public function getClientTxnId()
     {
-      return $this->ClientTxnId;
+        return $this->ClientTxnId;
     }
 
     /**
@@ -119,8 +119,8 @@ class clientResponse
      */
     public function setClientTxnId($ClientTxnId)
     {
-      $this->ClientTxnId = $ClientTxnId;
-      return $this;
+        $this->ClientTxnId = $ClientTxnId;
+        return $this;
     }
 
     /**
@@ -128,7 +128,7 @@ class clientResponse
      */
     public function getChannelId()
     {
-      return $this->ChannelId;
+        return $this->ChannelId;
     }
 
     /**
@@ -137,8 +137,8 @@ class clientResponse
      */
     public function setChannelId($ChannelId)
     {
-      $this->ChannelId = $ChannelId;
-      return $this;
+        $this->ChannelId = $ChannelId;
+        return $this;
     }
 
     /**
@@ -146,7 +146,7 @@ class clientResponse
      */
     public function getRequestTimestamp()
     {
-      return $this->RequestTimestamp;
+        return $this->RequestTimestamp;
     }
 
     /**
@@ -155,8 +155,8 @@ class clientResponse
      */
     public function setRequestTimestamp($RequestTimestamp)
     {
-      $this->RequestTimestamp = $RequestTimestamp;
-      return $this;
+        $this->RequestTimestamp = $RequestTimestamp;
+        return $this;
     }
 
     /**
@@ -164,7 +164,7 @@ class clientResponse
      */
     public function getResponseTimestamp()
     {
-      return $this->ResponseTimestamp;
+        return $this->ResponseTimestamp;
     }
 
     /**
@@ -173,8 +173,8 @@ class clientResponse
      */
     public function setResponseTimestamp($ResponseTimestamp)
     {
-      $this->ResponseTimestamp = $ResponseTimestamp;
-      return $this;
+        $this->ResponseTimestamp = $ResponseTimestamp;
+        return $this;
     }
 
     /**
@@ -182,7 +182,7 @@ class clientResponse
      */
     public function getResponseTxnId()
     {
-      return $this->ResponseTxnId;
+        return $this->ResponseTxnId;
     }
 
     /**
@@ -191,8 +191,8 @@ class clientResponse
      */
     public function setResponseTxnId($ResponseTxnId)
     {
-      $this->ResponseTxnId = $ResponseTxnId;
-      return $this;
+        $this->ResponseTxnId = $ResponseTxnId;
+        return $this;
     }
 
     /**
@@ -200,7 +200,7 @@ class clientResponse
      */
     public function getCommandStatus()
     {
-      return $this->CommandStatus;
+        return $this->CommandStatus;
     }
 
     /**
@@ -209,8 +209,8 @@ class clientResponse
      */
     public function setCommandStatus($CommandStatus)
     {
-      $this->CommandStatus = $CommandStatus;
-      return $this;
+        $this->CommandStatus = $CommandStatus;
+        return $this;
     }
 
     /**
@@ -218,7 +218,7 @@ class clientResponse
      */
     public function getResultCode()
     {
-      return $this->ResultCode;
+        return $this->ResultCode;
     }
 
     /**
@@ -227,8 +227,8 @@ class clientResponse
      */
     public function setResultCode($ResultCode)
     {
-      $this->ResultCode = $ResultCode;
-      return $this;
+        $this->ResultCode = $ResultCode;
+        return $this;
     }
 
     /**
@@ -236,7 +236,7 @@ class clientResponse
      */
     public function getResponseMessage()
     {
-      return $this->ResponseMessage;
+        return $this->ResponseMessage;
     }
 
     /**
@@ -245,8 +245,8 @@ class clientResponse
      */
     public function setResponseMessage($ResponseMessage)
     {
-      $this->ResponseMessage = $ResponseMessage;
-      return $this;
+        $this->ResponseMessage = $ResponseMessage;
+        return $this;
     }
 
     /**
@@ -254,7 +254,7 @@ class clientResponse
      */
     public function getDetails()
     {
-      return $this->Details;
+        return $this->Details;
     }
 
     /**
@@ -263,8 +263,8 @@ class clientResponse
      */
     public function setDetails($Details)
     {
-      $this->Details = $Details;
-      return $this;
+        $this->Details = $Details;
+        return $this;
     }
 
     /**
@@ -272,7 +272,7 @@ class clientResponse
      */
     public function getOfferList()
     {
-      return $this->OfferList;
+        return $this->OfferList;
     }
 
     /**
@@ -281,8 +281,8 @@ class clientResponse
      */
     public function setOfferList($OfferList)
     {
-      $this->OfferList = $OfferList;
-      return $this;
+        $this->OfferList = $OfferList;
+        return $this;
     }
 
     /**
@@ -290,7 +290,7 @@ class clientResponse
      */
     public function getINOffersList()
     {
-      return $this->INOffersList;
+        return $this->INOffersList;
     }
 
     /**
@@ -299,8 +299,8 @@ class clientResponse
      */
     public function setINOffersList(array $INOffersList = null)
     {
-      $this->INOffersList = $INOffersList;
-      return $this;
+        $this->INOffersList = $INOffersList;
+        return $this;
     }
 
 }

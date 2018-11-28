@@ -1,5 +1,5 @@
 # MTN
-MTN irancell Erefill ETIRequest php webservice client
+MTN irancell new Generic Api php webservice client
 
 Installation
 

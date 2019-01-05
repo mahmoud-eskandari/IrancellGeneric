@@ -36,7 +36,7 @@ class GenericServiceWebAdapterService extends \SoapClient
             'features' => 1,
         ), $options);
         if (!$wsdl) {
-            $wsdl = 'https://92.42.55.16:6022/erefill_bl/GenericService';
+            $wsdl = 'https://92.42.55.16:6022/erefill_bl/GenericService?wsdl';
         }
         parent::__construct($wsdl, $options);
     }

@@ -303,4 +303,26 @@ class clientResponse
         return $this;
     }
 
+    /**
+     * Return Response details
+     * @return array
+     */
+    public function getSerializedData()
+    {
+        return [
+            'FeatureId' => $this->FeatureId,
+            'ClientTxnId' => $this->ClientTxnId,
+            'ChannelId' => $this->ChannelId,
+            'RequestTimestamp' => $this->RequestTimestamp,
+            'ResponseTimestamp' => $this->ResponseTimestamp,
+            'ResponseTxnId' => $this->ResponseTxnId,
+            'CommandStatus' => $this->CommandStatus,
+            'ResultCode' => $this->ResultCode,
+            'ResponseMessage' => $this->ResponseMessage,
+            'Details' => $this->Details,
+            'OfferList' => $this->OfferList,
+            'INOffersList' => $this->INOffersList
+
+        ];
+    }
 }

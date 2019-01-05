@@ -76,9 +76,8 @@ class clientRequest
      * @param string $DestinationMsisdn
      * @param string $TransactionPin
      * @param string $TransactionAmount
-     * @param details $Details
      */
-    public function __construct($FeatureId, $ClientTxnId, $ChannelId, $ClientUsername, $ClientPassword, $RequestTimestamp, $OriginatingMsisdn, $DestinationMsisdn, $TransactionPin, $TransactionAmount,$Details)
+    public function __construct($FeatureId, $ClientTxnId, $ChannelId, $ClientUsername, $ClientPassword, $RequestTimestamp, $OriginatingMsisdn, $DestinationMsisdn, $TransactionPin, $TransactionAmount)
     {
         $this->FeatureId = $FeatureId;
         $this->ClientTxnId = $ClientTxnId;
@@ -90,7 +89,6 @@ class clientRequest
         $this->DestinationMsisdn = $DestinationMsisdn;
         $this->TransactionPin = $TransactionPin;
         $this->TransactionAmount = $TransactionAmount;
-        $this->Details = $Details;
     }
 
     /**

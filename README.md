@@ -4,7 +4,7 @@ MTN irancell new Generic Api php webservice client
 Installation
 
 ```
-	composer install eskandari/mtn_generic
+	composer require eskandari/mtn_generic
 ```
 
 Usage:
